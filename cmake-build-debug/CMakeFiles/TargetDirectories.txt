@@ -1,3 +1,0 @@
-/Users/duckheewon/CLionProjects/nullnull-c-project/cmake-build-debug/CMakeFiles/nullnull_c_project.dir
-/Users/duckheewon/CLionProjects/nullnull-c-project/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/duckheewon/CLionProjects/nullnull-c-project/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,10 @@
+# ninja log v5
+67	144	1700659464285290586	01FirstExample/01HelloWorld	88fd3c224a00a064
+0	70	1700659587018337611	build.ninja	6dd1cd1def1ea36f
+70	146	1700659534369972072	ex01_helloworld/01HelloWorld	6bbc423733991166
+0	70	1700659534293560501	ex01_helloworld/CMakeFiles/01HelloWorld.dir/hello.c.o	5c3cdfe3210ee2a7
+0	67	1700659464208037094	01FirstExample/CMakeFiles/01HelloWorld.dir/hello.c.o	7db8862a6d224523
+69	139	1700659082577837565	nullnull_c_project	e802b9eaba4e2fb4
+0	69	1700659082507346706	CMakeFiles/nullnull_c_project.dir/main.c.o	370ae73db3c990f3
+0	73	1700659591308420588	ex01_helloworld/CMakeFiles/ex01_hello_world.dir/hello.c.o	3e8103675c310472
+73	160	1700659591395962653	ex01_helloworld/ex01_hello_world	5d7b4b763c712d52
