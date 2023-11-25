@@ -8,6 +8,7 @@ set(CMAKE_C_STANDARD 99)
 
 # add sub directory
 add_subdirectory(ex01_helloworld)
+add_subdirectory(ex02_getchar_sample)
 
 # 프로젝트를 실행 가능한 파일로 설정 및 소스 추가
 add_executable(nullnull_c_project main.c)

@@ -1,27 +1,28 @@
 CC = gcc
 
-SRCS = hello.c
-
-TARGET = ex_01_hello_world
+SRCS = getchar_sample.c
 
 BUILD_DIR = buildDir
 
-COBJS = $(addprefix $(BUILD_DIR)/, $(SRCS:.c=.o))
+TARGET = ex02_getChar
 
+COBJS = $(addprefix $(BUILD_DIR)/, $(SRCS:.c=.o))
 
 all: clean createdirs build
 
 createdirs:
 	$(shell mkdir ${BUILD_DIR})
 
-$(COBJS): $(BUILD_DIR)/%.o : %.c
-	$(CC) -o $@ -c $<
 
 build: $(COBJS)
 	$(CC) -o $(BUILD_DIR)/$(TARGET) $^
 
+$(COBJS): $(BUILD_DIR)/%.o : %.c
+	$(CC) -o $@ -c $<
+
 clean:
-	rm -rf ${BUILD_DIR}
+	$(shell rm -rf ${BUILD_DIR})
 
 .PHONNY: clean createdirs build
 .SUFFIXES: .c .o
+
