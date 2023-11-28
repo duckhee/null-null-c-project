@@ -13,6 +13,11 @@ add_subdirectory(ex03_gets_sample)
 add_subdirectory(ex04_gets_security_problem)
 add_subdirectory(ex05_escSeq)
 add_subdirectory(ex05_format)
+add_subdirectory(ex06_float_print)
+add_subdirectory(ex06_01_float_format2)
+add_subdirectory(ex07_01_scanfChar)
+add_subdirectory(ex07_02_scanfInteger)
+add_subdirectory(ex07_03_scanfAge)
 
 # 프로젝트를 실행 가능한 파일로 설정 및 소스 추가
 add_executable(nullnull_c_project main.c)
