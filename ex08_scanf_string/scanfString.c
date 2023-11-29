@@ -9,11 +9,14 @@ int main() {
     // unix 에서 사용하는 것 -> 메모리 주속를 넘어가는 문제가 있음
     scanf("%s", szBuffer);
     // 입력 받은 값 출력
-    printf("%s\r\n", szBuffer);
+    printf("input : %s\r\n", szBuffer);
 
     char szBufferLeft[32] = {0};
     char szBufferRight[32] = {0};
+//    행 단위로 입력을 받을 때, gets를 사용하는 것이 좋다. -> 여기서 space 도 enter 와 같은 역활을 한다.
 //    scanf_s("%s%s", szBufferLeft, (unsigned) _countof(szBufferLeft), szBufferRight, (unsigned) _countof(szBufferRight));
     scanf("%s%s", szBufferLeft, szBufferRight);
+
+    printf("left : %s, right : %s\r\n", szBufferLeft, szBufferRight);
     return 0;
 }

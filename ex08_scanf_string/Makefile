@@ -4,15 +4,15 @@ SRCS = scanfString.c
 
 TARGET = scanfString
 
-BUILD_DIR = build
+
+BUILD_DIR = buildDir
 
 COBJS = $(addprefix $(BUILD_DIR)/, $(SRCS:.c=.o))
-
 
 all: clean createdirs build
 
 createdirs:
-	$(shell mkdir ${BUILD_DIR})
+	$(shell mkdir $(BUILD_DIR))
 
 build: $(COBJS)
 	$(CC) -o $(BUILD_DIR)/$(TARGET) $^
@@ -25,3 +25,14 @@ clean:
 
 .PHONNY: clean createdirs build
 .SUFFIXES: .c .o
+
+
+
+
+
+
+
+
+
+
+
