@@ -19,5 +19,8 @@ build: $(COBJS)
 $(COBJS): $(BUILD_DIR)/%.o : %.c
 	$(CC) -o $@ -c $<
 
+clean:
+	$(shell rm -rf ${BUILD_DIR})
+
 .SUFFIXES: .c .o
 .PHONNY: clean createdirs build

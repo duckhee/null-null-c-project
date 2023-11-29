@@ -1,12 +1,13 @@
 CC = gcc
 
-SRCS = escSequence.c
+SRCS = scanfString.c
 
-TARGET = escSequence
+TARGET = scanfString
 
 BUILD_DIR = build
 
 COBJS = $(addprefix $(BUILD_DIR)/, $(SRCS:.c=.o))
+
 
 all: clean createdirs build
 
