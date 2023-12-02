@@ -23,6 +23,8 @@ add_subdirectory(example01_problem)
 add_subdirectory(ex09_01_addSample)
 add_subdirectory(ex09_02_modSample)
 add_subdirectory(ex10_01_casting_change)
+add_subdirectory(ex10_02_divisionZero)
+add_subdirectory(example02_problem)
 
 # 프로젝트를 실행 가능한 파일로 설정 및 소스 추가
 add_executable(nullnull_c_project main.c)
