@@ -29,6 +29,8 @@ add_subdirectory(example03_problem)
 add_subdirectory(ex11_01_assignErrorSample)
 add_subdirectory(example04_problem)
 add_subdirectory(example05_problem)
+add_subdirectory(ex12_01_overflow)
+add_subdirectory(ex12_02_conditional_operator)
 
 
 # 프로젝트를 실행 가능한 파일로 설정 및 소스 추가
