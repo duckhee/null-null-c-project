@@ -34,6 +34,8 @@ add_subdirectory(ex12_02_conditional_operator)
 add_subdirectory(ex13_01_bit_mask)
 add_subdirectory(example06_problem)
 add_subdirectory(ex13_02_sizeof)
+add_subdirectory(ex14_01_short_circuit)
+add_subdirectory(ex14_02_wrong_condition)
 
 
 # 프로젝트를 실행 가능한 파일로 설정 및 소스 추가
