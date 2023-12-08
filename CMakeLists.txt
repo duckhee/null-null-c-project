@@ -37,6 +37,9 @@ add_subdirectory(ex13_02_sizeof)
 add_subdirectory(ex14_01_short_circuit)
 add_subdirectory(ex14_02_wrong_condition)
 add_subdirectory(ex15_01_TernaryOperator)
+add_subdirectory(example07_problem)
+add_subdirectory(example08_problem)
+add_subdirectory(example09_problem)
 
 
 # 프로젝트를 실행 가능한 파일로 설정 및 소스 추가
