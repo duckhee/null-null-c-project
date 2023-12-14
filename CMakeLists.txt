@@ -45,6 +45,7 @@ add_subdirectory(example10_problem)
 add_subdirectory(example11_problem)
 add_subdirectory(ex17_01_if_else)
 add_subdirectory(example12_problem)
+add_subdirectory(ex18_multi_if)
 
 
 # 프로젝트를 실행 가능한 파일로 설정 및 소스 추가
