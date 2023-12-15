@@ -56,6 +56,7 @@ add_subdirectory(example14_problem)
 add_subdirectory(ex23_for)
 add_subdirectory(example15_problem)
 add_subdirectory(example16_problem)
+add_subdirectory(ex24_break_and_continue)
 
 
 # 프로젝트를 실행 가능한 파일로 설정 및 소스 추가
