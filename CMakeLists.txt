@@ -51,6 +51,7 @@ add_subdirectory(ex20_switch_case)
 add_subdirectory(ex21_goto)
 add_subdirectory(ex21_02_goto)
 add_subdirectory(ex22_while)
+add_subdirectory(example13_problem)
 
 
 # 프로젝트를 실행 가능한 파일로 설정 및 소스 추가
