@@ -61,6 +61,10 @@ add_subdirectory(ex25_array)
 add_subdirectory(example17_problem)
 add_subdirectory(example18_problem)
 add_subdirectory(example19_problem)
+add_subdirectory(ex26_multi-dimensionalArray)
+add_subdirectory(example20_problem)
+add_subdirectory(example21_problem)
+add_subdirectory(ex27-lookupArray)
 
 
 # 프로젝트를 실행 가능한 파일로 설정 및 소스 추가
