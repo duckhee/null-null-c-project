@@ -65,6 +65,8 @@ add_subdirectory(ex26_multi-dimensionalArray)
 add_subdirectory(example20_problem)
 add_subdirectory(example21_problem)
 add_subdirectory(ex27-lookupArray)
+add_subdirectory(example22_problem)
+add_subdirectory(ex28-eventLoop)
 
 
 # 프로젝트를 실행 가능한 파일로 설정 및 소스 추가
