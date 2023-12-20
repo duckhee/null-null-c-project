@@ -72,7 +72,10 @@ add_subdirectory(ex29_02-pointer_array)
 add_subdirectory(ex29_03-pointer_array)
 add_subdirectory(ex30_01-dynamic_pointer)
 add_subdirectory(ex30_02-dynamic_pointer)
-
+add_subdirectory(ex31_01-pointer-dynamicArray)
+add_subdirectory(ex31_02-pointer-dynamicArray)
+add_subdirectory(ex31_03-memcopy)
+add_subdirectory(example/example23_problem)
 
 # 프로젝트를 실행 가능한 파일로 설정 및 소스 추가
 add_executable(nullnull_c_project main.c)
