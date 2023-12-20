@@ -70,6 +70,8 @@ add_subdirectory(ex28-eventLoop)
 add_subdirectory(ex29_01-pointer_simple)
 add_subdirectory(ex29_02-pointer_array)
 add_subdirectory(ex29_03-pointer_array)
+add_subdirectory(ex30_01-dynamic_pointer)
+add_subdirectory(ex30_02-dynamic_pointer)
 
 
 # 프로젝트를 실행 가능한 파일로 설정 및 소스 추가
