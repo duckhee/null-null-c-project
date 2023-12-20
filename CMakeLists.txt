@@ -1,5 +1,5 @@
 # CMake 최소 버전 설정
-cmake_minimum_required(VERSION 3.26)
+cmake_minimum_required(VERSION 3.2.6)
 
 # 프로젝트에 대한 설정 -> 프로젝트 이름 정의 및 언어 설정 C
 project(nullnull_c_project LANGUAGES C)
@@ -67,7 +67,7 @@ add_subdirectory(example21_problem)
 add_subdirectory(ex27-lookupArray)
 add_subdirectory(example22_problem)
 add_subdirectory(ex28-eventLoop)
-
+add_subdirectory(ex29_01-pointer_simple)
 
 # 프로젝트를 실행 가능한 파일로 설정 및 소스 추가
 add_executable(nullnull_c_project main.c)

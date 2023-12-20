@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 int main() {
     // 전체 경우에 대한 과금율을 결과를 담은 배열의 선언 및 정의
     double aRate[10] = {
