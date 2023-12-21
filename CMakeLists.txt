@@ -78,6 +78,7 @@ add_subdirectory(ex31_03-memcopy)
 add_subdirectory(example/example23_problem)
 add_subdirectory(ex32_01-array-pointer)
 add_subdirectory(ex32_02-pointerArray)
+add_subdirectory(ex33_01-stringCopyCompSearch)
 
 # 프로젝트를 실행 가능한 파일로 설정 및 소스 추가
 add_executable(nullnull_c_project main.c)
