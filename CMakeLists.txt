@@ -80,6 +80,8 @@ add_subdirectory(ex32_01-array-pointer)
 add_subdirectory(ex32_02-pointerArray)
 add_subdirectory(ex33_01-stringCopyCompSearch)
 add_subdirectory(ex34_01-realloc)
+add_subdirectory(ex35_01-multiPointer)
+add_subdirectory(ex35_02-multiPointer)
 
 
 # 프로젝트를 실행 가능한 파일로 설정 및 소스 추가
