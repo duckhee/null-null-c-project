@@ -8,10 +8,10 @@ TARGET = ex3701StackOverflow
 
 COBJS = $(addprefix $(BUILD_DIR)/, $(SRCS:.c=.o))
 
-# stack 크기를 변경하기 위한 옵션 => stack-size=
+# stack 크기를 변경하기 위한 옵션 => -z,--stack,4194304
 #C_FLAGS = -Wl,-z,stack-size=4194304 # call stack change 4MB
+#C_FLAGS = -fstack-usage -Wreturn-stack-address -Wall,-z,--stack,4194304
 C_FLAGS = -Wall,-z,--stack,4194304
-
 
 all: clean createdirs build
 
