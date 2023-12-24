@@ -79,6 +79,11 @@ add_subdirectory(ex39_01-callbyReference)
 add_subdirectory(ex39_02-callByReferenceFunc)
 add_subdirectory(ex39_03-callByReference)
 add_subdirectory(ex40_01-recursiveFunction)
+add_subdirectory(ex41_01-strtok)
+add_subdirectory(ex41_02-strpbrk)
+add_subdirectory(ex41_03-strcat)
+add_subdirectory(ex41_04-strcat)
+add_subdirectory(ex41_05-sprintf)
 
 
 add_subdirectory(example)
