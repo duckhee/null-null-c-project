@@ -75,6 +75,11 @@ add_subdirectory(ex35_02-multiPointer)
 add_subdirectory(ex36_01-multiDimensionArrayPointer)
 add_subdirectory(ex37_01-stackOverflow)
 add_subdirectory(ex38_01-stackFrameAndLocalVariable)
+add_subdirectory(ex39_01-callbyReference)
+add_subdirectory(ex39_02-callByReferenceFunc)
+add_subdirectory(ex39_03-callByReference)
+add_subdirectory(ex40_01-recursiveFunction)
+
 
 add_subdirectory(example)
 
