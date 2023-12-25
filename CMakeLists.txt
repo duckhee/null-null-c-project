@@ -84,7 +84,7 @@ add_subdirectory(ex41_02-strpbrk)
 add_subdirectory(ex41_03-strcat)
 add_subdirectory(ex41_04-strcat)
 add_subdirectory(ex41_05-sprintf)
-
+add_subdirectory(ex42_01-timeUtil)
 
 add_subdirectory(example)
 
