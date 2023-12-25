@@ -85,6 +85,8 @@ add_subdirectory(ex41_03-strcat)
 add_subdirectory(ex41_04-strcat)
 add_subdirectory(ex41_05-sprintf)
 add_subdirectory(ex42_01-timeUtil)
+add_subdirectory(ex43_01-rand)
+add_subdirectory(ex44_01-systemUtils)
 
 add_subdirectory(example)
 

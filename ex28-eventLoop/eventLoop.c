@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 //#include <windows.h>
 
 
@@ -6,6 +7,7 @@ int printMenu() {
     int nInput = 0;
     // window 에서 사용하는 것
 //    system("cls");
+//    system("clear");
     // console 화면을 지우는 linux 코드
     printf("\033c");
     printf("[1]New\t[2]Search\t[3]Print\t[4]Remove\t[0]Exit\r\n");
