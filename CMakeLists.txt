@@ -90,6 +90,8 @@ add_subdirectory(ex44_01-systemUtils)
 add_subdirectory(ex45_01-struct)
 add_subdirectory(ex46_01-structure)
 add_subdirectory(ex46_02-structure)
+add_subdirectory(ex47_01-memberStructure)
+add_subdirectory(ex47_02-linkedList)
 
 
 add_subdirectory(example)
