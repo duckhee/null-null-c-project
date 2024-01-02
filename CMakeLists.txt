@@ -92,7 +92,7 @@ add_subdirectory(ex46_01-structure)
 add_subdirectory(ex46_02-structure)
 add_subdirectory(ex47_01-memberStructure)
 add_subdirectory(ex47_02-linkedList)
-
+add_subdirectory(ex48_01-bitField)
 
 add_subdirectory(example)
 
