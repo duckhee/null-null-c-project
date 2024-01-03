@@ -94,6 +94,7 @@ add_subdirectory(ex47_01-memberStructure)
 add_subdirectory(ex47_02-linkedList)
 add_subdirectory(ex48_01-bitField)
 add_subdirectory(ex49_01-union)
+add_subdirectory(ex50_01-structureFit)
 
 add_subdirectory(example)
 
