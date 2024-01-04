@@ -96,6 +96,8 @@ add_subdirectory(ex48_01-bitField)
 add_subdirectory(ex49_01-union)
 add_subdirectory(ex50_01-structureFit)
 
+add_subdirectory(ex51_01-file)
+
 add_subdirectory(example)
 
 # 프로젝트를 실행 가능한 파일로 설정 및 소스 추가
