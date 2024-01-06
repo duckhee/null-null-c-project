@@ -97,6 +97,10 @@ add_subdirectory(ex49_01-union)
 add_subdirectory(ex50_01-structureFit)
 
 add_subdirectory(ex51_01-file)
+add_subdirectory(ex52_01-textFileHandle)
+add_subdirectory(ex52_02-readFile)
+
+add_subdirectory(ex53_01-IObuffer)
 
 add_subdirectory(example)
 

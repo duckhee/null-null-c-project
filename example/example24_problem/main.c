@@ -15,7 +15,7 @@ void myStrcpy(char *dst, unsigned int size, char *src) {
     size_t nLenSrc = 0;
     nLenSrc = strlen(src);
     // 배열의 크기 관련 check 해야한다.
-//    if (nLenSrc + 1 > size) {
+//    if (nLenSrc + 1 > bufSize) {
 //
 //    }
     for (int i = 0; i < size; i++) {

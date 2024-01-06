@@ -8,7 +8,7 @@ add_executable(ex3701StackOverflow stackOverflow.c)
 
 set_target_properties(ex3701StackOverflow PROPERTIES C_STANDARD 99 C_STANDARD_REQUIRED ON)
 
-# call stack size change 4MB
+# call stack bufSize change 4MB
 target_compile_options(ex3701StackOverflow PRIVATE "-Wl,-z,--stack,4194304")
 #message(target)
 #target_compile_options(ex3701StackOverflow PRIVATE -Wl,--stack,419304)

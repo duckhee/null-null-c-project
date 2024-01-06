@@ -21,6 +21,6 @@ int main() {
     // 현재 값을 16진수로 표현 시 3E 가 된다. -> 현재 값을 4비트로 끊어서 볼때 값이다.
     printf("pointer address : %X\r\n", *((unsigned char *) &flag));
     // 데이터 구조체의 크기 출력
-    printf("structure size : %zd\r\n", sizeof(flag));
+    printf("structure bufSize : %zd\r\n", sizeof(flag));
     return 0;
 }

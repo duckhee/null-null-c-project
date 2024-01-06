@@ -6,7 +6,7 @@ void getName(char *pName, int size) {
     // linux style scanf_s
     fgets(pName, size, stdin);
     // window using scanf_s
-    // scanf_s(pName, size);
+    // scanf_s(pName, bufSize);
 }
 
 int main(int argc, char **argv) {
