@@ -101,6 +101,9 @@ add_subdirectory(ex52_01-textFileHandle)
 add_subdirectory(ex52_02-readFile)
 
 add_subdirectory(ex53_01-IObuffer)
+add_subdirectory(ex54_01-binaryFileIO)
+
+add_subdirectory(ex55_01-fseek)
 
 add_subdirectory(example)
 
