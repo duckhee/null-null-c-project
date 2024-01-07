@@ -104,6 +104,8 @@ add_subdirectory(ex53_01-IObuffer)
 add_subdirectory(ex54_01-binaryFileIO)
 
 add_subdirectory(ex55_01-fseek)
+add_subdirectory(ex56_01-constPointer)
+add_subdirectory(ex57_01-enum)
 
 add_subdirectory(example)
 
