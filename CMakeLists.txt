@@ -108,6 +108,10 @@ add_subdirectory(ex56_01-constPointer)
 add_subdirectory(ex57_01-enum)
 add_subdirectory(ex58_01-extern)
 
+add_subdirectory(ex59_01-macro)
+add_subdirectory(ex59_02-macro)
+
+add_subdirectory(ex60_01-conditionCompile)
 
 add_subdirectory(example)
 
