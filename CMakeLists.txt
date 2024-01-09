@@ -113,6 +113,9 @@ add_subdirectory(ex59_02-macro)
 
 add_subdirectory(ex60_01-conditionCompile)
 
+add_subdirectory(ex61_01-functionPointer)
+add_subdirectory(ex62_01-callback)
+add_subdirectory(ex63_01-lookupAndCallback)
 add_subdirectory(example)
 
 # 프로젝트를 실행 가능한 파일로 설정 및 소스 추가
